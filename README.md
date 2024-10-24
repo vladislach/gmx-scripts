@@ -35,5 +35,6 @@ The `fep.mdp` file contains a sample lambda schedule for the free energy perturb
 - [Absolute Binding Free Energy from Alchemistry.org](https://alchemistry.org/wiki/Absolute_Binding_Free_Energy_-_Gromacs_2016)
 - [Sample from David Mobley’s `pymbar` package](https://github.com/MobleyLab/alchemical-analysis/blob/master/samples/gromacs/inputfiles/3-methylindole-38steps/trpo.mdp)
 - [Free Energy of Solvation Tutorial](https://tutorials.gromacs.org/docs/free-energy-of-solvation.html)
+- [Best Practices for Alchemical Free Energy Calculations](https://livecomsjournal.org/index.php/livecoms/article/view/v2i1e18378)
 
 Additionally, to improve sampling and convergence in FEP calculations, consider using Hamiltonian replica exchange (HREX). You can enable HREX by adding the `-replex` and `-nex` flags to `mdrun` during production simulations after completing all minimization and equilibration steps. The `-multidir` flag can be used to specify the directories containing the `.tpr` files for all windows to run them in parallel. More information about these flags is available in the [GROMACS manual](https://manual.gromacs.org/current/onlinehelp/gmx-mdrun.html).
