@@ -1,5 +1,6 @@
 from rdkit import Chem
 from rdkit.Chem.rdMolAlign import AlignMol
+from rdkit.Chem.rdFMCS import FindMCS
 
 
 def align_ligands(ligA_file, ligB_file, output_file, B_to_A, unique_atoms_B):
