@@ -5,6 +5,7 @@ This repository contains scripts and an interactive notebook to set up and run R
 The scripts include:
 
 - Aligning congeneric ligands
+- Force field parameterization for both the ligands and the protein
 - Preparing hybrid topology and molecular structure files
 - Preparing all input files and running FEP calculations
 
