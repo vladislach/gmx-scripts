@@ -2,6 +2,13 @@
 
 This repository contains scripts and an interactive notebook to set up and run Relative Binding Free Energy (RBFE) calculations for protein-ligand systems using **GROMACS**. The main walkthrough is provided in `example.ipynb` that demonstrates the entire process from preparing the system to performing free energy calculations with multiple lambda windows.
 
+The scripts include:
+
+- Aligning congeneric ligands
+- Preparing hybrid topology and molecular structure files
+- Preparing all input files and running FEP calculations
+
+
 ## Requirements
 
 Before running any of the scripts or the notebook, ensure that GROMACS is installed, as it is required to perform molecular dynamics simulations. You can follow the official GROMACS [installation guide](https://manual.gromacs.org/current/install-guide/index.html) for instructions. It's recommended to use Conda to manage dependencies and easily set up the environment.
